@@ -19,7 +19,7 @@ public class StatsService<sales> {
         int month = 0;
         int maxmonth = 0;
         for (int sale : sales) {
-            month = month + 1;
+            month++;
             if (maxsales <= sale) {
                 maxsales = sale;
                 maxmonth = month;
